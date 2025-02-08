@@ -1,4 +1,4 @@
-package main
+package logmanager
 
 import (
 	fm "filemanager"
@@ -12,8 +12,4 @@ type LogManager struct {
 	fileManager *fm.FileManager
 	logFile     string
 	logPage     *fm.Page
-}
-
-func main() {
-
 }
