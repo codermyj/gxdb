@@ -17,3 +17,7 @@ func NewPeople(idcard string, name string, address string) *People {
 func (p *People) GetName() string {
 	return p.name
 }
+
+func (p *People) GetID() string {
+	return p.idCard
+}
